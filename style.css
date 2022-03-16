@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@500&family=Oswald:wght@300&family=Play:wght@700&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Tenor+Sans&display=swap');
+
+
+
+        /*---------bloc_1-------*/
+/*-----------------Header--------------------*/
+
+
+.navbar{
+	background-color: #5F6E6F;
+
+}
+
+.logo{
+	width: 60px;
+	margin: -15px 60px  ;
+}
+
+.nav-link{
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+        /*---------bloc_2-------*/
+/*-----------------main--------------------*/
+
+.main{
+	height: 100vh;
+	background-image: url(images/marlin5_21_33136_a_portrait.jpg);
+	background-attachment: local ;    
+        background-size: cover;
+}
+
+h1{
+	color: white;
+	margin-top: 70px;
+}
+
+.btn-primary{
+	background-color: #5F6E6F;
+	border-color:  white;
+}
+
+.btn-primary:hover{
+	background-color:white;
+	border-color:#5F6E6F;
+	color: #5F6E6F;
+}
+
+.a_button{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-decoration: none;
+}
+
+
+
+        /*---------bloc_3-------*/
+/*-----------------content--------------------*/
+
+
+.row_content{
+	padding-top: 25px;
+	
+}
+
+.card{
+	background-color:#5F6E6F ;
+	color: white;
+}
+
+.contacts{
+	display: contents;
+}
+
+.card_content{
+	display: flex;
+        align-items: stretch;
+        padding-bottom: 25px;
+}
+
+
+
+        /*---------bloc_4-------*/
+/*-----------------information--------------------*/
+
+.information{
+	background-color: black;
+	color: white;
+}
+
+.text{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.img-fluid{
+	width: 550px	;
+}
+
+.information_row {
+	display: flex;
+    align-items: center;
+    padding:100px 0px 100px 0px;
+}
+
+    
+        /*---------bloc_5-------*/
+/*-----------------kinds--------------------*/
+
+.kinds_row{
+	padding: 50px 0px 50px 0px ;
+	 font-family: 'Orbitron', sans-serif;
+}
+
+.kinds_p{
+	font-family: 'Tenor Sans', sans-serif;
+	text-align: center;
+	font-size: 114px;
+	text-transform: uppercase;
+	margin-top: 100px;
+        margin-bottom: 50px;
+        text-shadow: 13px 10px 13px black, 0 0 1em black; /* Параметры тени */
+}
+
+        /*---------bloc_6-------*/
+/*-----------------forma--------------------*/
+
+.forma{
+	background-color: black;
+	padding: 100px;
+}
+
+.forma_h2{
+	color: white;
+}
+
+.forma_basic{
+	max-width: 600px;
+}
+
+.forma_row{
+	display: flex;
+	margin: 0 -20px;
+}
+
+.forma_group{
+	padding:10px 20px;
+	flex: 1;
+	position: relative;	
+}
+
+.input{
+	outline: 0;
+	padding: 10px ;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid white ;
+	background-color: transparent;
+	color: white;
+	font-size: 15px;
+}
+
+.input:focus + .lebal{
+	transform: translateY(-15px);
+	font-size: 12px;
+}
+
+.lebal{
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	pointer-events: none;
+	transition: all .3s ease;
+
+}
+
+.input:not(:placeholder-shown) + .lebal{
+	transform: translateY(-15px);
+	font-size: 12px;
+}
+
+.textarea{ 
+	outline: 0;
+	padding: 10px ;
+	width: 82%;
+	min-height: 130px;
+	resize: vertical;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid white ;
+	background-color: transparent;
+	color: white;
+	font-size: 15px;
+}
+
+.textarea:not(:placeholder-shown) + .lebal{
+	transform: translateY(-15px);
+	font-size: 12px;
+}
+
+.textarea:focus + .lebal{
+	transform: translateY(-15px);
+	font-size: 12px;
+}
+
+.btn_2{
+	min-width: 200px;
+	height: 50px;
+	padding: 0 15px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.a_button_2{
+	display: contents;
+}
+
+.button_contact{
+	padding-top:50px ;	
+}
+
+
+        /*---------bloc_7-------*/
+/*-----------------footer--------------------*/
+
+.footer_soc{
+	width: 65px;
+	vertical-align:inherit;
+	border: 4px solid black;
+	border-radius: 25%;
+	padding: 8px;
+}
+
+.footer_soc:hover {
+    transform: scale(1.5);
+}
+
+.footer{
+	background-color: #5F6E6F;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.img-footer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+} 
+
+.img-footer:hover {
+ 
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.footer_soc_link{
+	text-decoration: none;
+	padding: 50px;   
+}
+
+.velobaik{
+	padding: 25px 0 25px 0;
+}
+
+.copiright{
+	font-family: 'Orbitron', sans-serif;
+        font-weight: 600;
+	font-size: 35px;
+	color: #000000;	
+
+
+}
+.copiright:hover {
+	-webkit-transition: all 0.5s ease;
+	        border-radius: 10px;
+	        padding: 2px;
+	        background-color:black;
+	        border-color:#5F6E6F;
+	        color: #5F6E6F;
+	   
+}
+
+        /*-------------------------------------------*/
+
+/*-------------------medea____991px-------------------*/
+	/*-------------------------------------------*/
+
+
+@media screen and (max-width: 991px){
+
+
+/*---------bloc_1-------*/
+	.logo{
+	margin: 0px  ;
+}
+
+/*---------bloc_2-------*/
+
+.main{
+	background-position-x: -140px;
+        background-repeat: no-repeat;
+}
+
+
+.header_h1 {
+	font-size: 25px;
+
+}
+
+
+/*---------bloc_4-------*/
+.information_row {
+	display: flex;
+        flex-direction: column;
+   
+}
+/*---------bloc_5-------*/
+.kinds_p{
+	font-size: 50px;	
+}
+
+/*---------bloc_6-------*/
+
+.forma {
+    padding: 50px 0 50px 10px;
+}
+
+.forma_row {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_2{
+	min-width: 70px;
+	height: 40px;
+	padding: 0 15px;
+}
+}
