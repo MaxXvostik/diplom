@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Roboto+Condensed&family=Yanone+Kaffeesatz:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Oswald:wght@300&family=Roboto+Condensed&family=Yanone+Kaffeesatz:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Oswald:wght@300&family=Roboto+Condensed&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+/*body{
+	max-width: 95%;
+	margin: 0 auto;
+}*/
+
+/*-----------------------------Блок_1---------------------------------------*/
+
+
+/*---------header_img-----------------*/
+
+.header{
+	max-height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.header:after{
+	content: " ";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, .5) ;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.header_images{
+	position: relative;
+	padding-bottom: 56.25%;
+	z-index: 1;
+}
+.fon_img{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*----------------header_block-------------------*/
+
+.header_block{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column ;
+	justify-content: center;
+}
+.header_title{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.intro_title{
+	text-align: center;
+	color: white;
+	font-size: 5vw;
+	padding-bottom: 2%;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.name_title{
+	font-size: 3vw;
+	background-color: red;
+	border-radius: 50%;
+	padding: 0.5%;
+}
+.batton_title{
+	padding-top: 3%;
+}
+.h1_title{
+	letter-spacing: 0.5vw;
+	font-family: 'Oswald', sans-serif;
+
+}
+.a_title{
+	color: white;
+	text-decoration: none;
+	border: 2px solid red;
+	font-size: 2.5vw;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.a_title:hover{
+	color: red;
+	border: 2px solid white;
+}
+
+/*-----------------------------Блок_2---------------------------------------*/
+
+/*---------about_me-----------------*/
+
+.about_me{
+
+}
+.information{
+	padding:0 10% 0 10%;
+	margin-bottom: 5%;
+	
+
+}
+
+.h3_about_me{
+	color: black;
+	padding-top: 5%;
+}
+
+.p_about_me {
+	color: black;
+	font-size: 3vw;
+	padding: 0;
+	text-align: justify;
+	text-indent: 3%;
+	font-family: 'Caveat', cursive;
+}
+
+
+
+/*---------about_me_skills------------*/
+
+.about_me_skills{
+	background-color: black;
+	border-radius: 50%;
+	padding: 5%;
+}
+
+.h4_about_me{
+	color: white;
+	font-size: 3vw;
+	padding-top: 3%;
+
+	
+
+}
+.about_me_ul{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+
+
+}
+.about_me_ul>li{
+	list-style-type: none;	
+	padding: 15px; 
+	margin: 2vw 3vw 2vw 3vw ;
+	width: 150px;
+
+	 box-shadow: 0 8px 16px 0 rgb(255,255,255);
+	 
+
+	
+    transition: 0.3s;
+   background-image: url(images/cosmos.jpg);
+    border-radius: 10px;
+}
+
+.about_me_ul>li:hover {
+  box-shadow: 40px 40px 50px 0 rgb(255,255,255);
+}
+
+.about_me_ul>li>img{
+ 	width: 150px;
+
+ }
+
+.about_me_ul>li>h6{
+	font-size: 1.5vw;
+	text-align: center;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 5px;
+	background-color: white;
+	border-radius: 5px;
+
+
+}
+.about_me_ul>li>p{
+	font-size: 1.3vw;
+	padding-top: 20px;
+	height: 6vw;
+	text-align: center;
+	font-family: 'Caveat', cursive;
+	color: white;
+	line-height: 25px;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+
+
+
+/*-----------------------------Блок_2---------------------------------------*/
+
+/*---------about_me-----------------*/
+
+.about_me_ul>li{	
+	padding: 5px; 
+	margin: 5px;
+	width: 100px;
+}
+
+.about_me_ul>li>img{
+ 	width: 100px;
+ }
+
+.about_me_ul>li>p{
+	font-size: 1.5vw;
+	padding-top: 10px;
+	line-height: 15px;
+}
+
+.about_me_skills{
+	padding: 11%;
+}
+
+}
